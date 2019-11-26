@@ -1,0 +1,47 @@
+Flutter crash report; please file at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run --machine --target lib\main.dart -d ce0416045c0d0f1302 --track-widget-creation --start-paused
+
+## exception
+
+SocketException: SocketException: Write failed (OS Error: O pipe está sendo fechado.
+, errno = 232), port = 0
+
+```
+null```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, v1.7.8+hotfix.4, on Microsoft Windows [versÃ£o 10.0.17134.950], locale pt-BR)
+    • Flutter version 1.7.8+hotfix.4 at C:\flutter
+    • Framework revision 20e59316b8 (7 weeks ago), 2019-07-18 20:04:33 -0700
+    • Engine revision fee001c93f
+    • Dart version 2.4.0
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 29.0.2)
+    • Android SDK at C:\Android\sdk
+    • Android NDK location not configured (optional; useful for native profiling support)
+    • Platform android-29, build-tools 29.0.2
+    • ANDROID_HOME = C:\Android\sdk
+    • Java binary at: C:\Program Files\Android\Android Studio\jre\bin\java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_202-release-1483-b03)
+    • All Android licenses accepted.
+
+[✓] Android Studio (version 3.5)
+    • Android Studio at C:\Program Files\Android\Android Studio
+    • Flutter plugin version 38.2.3
+    • Dart plugin version 191.8423
+    • Java version OpenJDK Runtime Environment (build 1.8.0_202-release-1483-b03)
+
+[✓] VS Code (version 1.38.0)
+    • VS Code at C:\Users\danielledm\AppData\Local\Programs\Microsoft VS Code
+    • Flutter extension version 3.4.1
+
+[✓] Connected device (1 available)
+    • SM G930F • ce0416045c0d0f1302 • android-arm64 • Android 8.0.0 (API 26)
+
+• No issues found!
+```
